@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_movie_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movie Search" />
+
+    <TextView
+        android:id="@+id/textView_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter movie title:" />
+
+    <EditText
+        android:id="@+id/editText_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button_search_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@android:string/search_go" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_search"
+        android:layout_width="358dp"
+        android:layout_height="570dp" />
+
+
+</LinearLayout>
